@@ -3,7 +3,10 @@ import streamlit as st
 
 def main():
     st.title("Curvas de aprendizaje y Simulación Montecarlo")
-    st.write("[https://excalidraw.com/#room=5a1eb83a9c0ba4ee278b,j6-eKhrIdcLkM9BnRxtAgg](Ver el diseño del a aplicación)")
+    
+
+    st.write("[Ver el diseño del a aplicación](https://excalidraw.com/#room=5a1eb83a9c0ba4ee278b,j6-eKhrIdcLkM9BnRxtAgg)")
+
 
 
     # Get user input for error percentage
