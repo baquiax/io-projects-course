@@ -2,7 +2,9 @@
 import streamlit as st
 
 def main():
-    st.title("Desing could be found here: https://excalidraw.com/#room=5a1eb83a9c0ba4ee278b,j6-eKhrIdcLkM9BnRxtAgg")
+    st.title("Curvas de aprendizaje y Simulación Montecarlo")
+    st.write("[https://excalidraw.com/#room=5a1eb83a9c0ba4ee278b,j6-eKhrIdcLkM9BnRxtAgg](Ver el diseño del a aplicación)")
+
 
     # Get user input for error percentage
     error_percentage = st.text_input("Enter Error Percentage:")
