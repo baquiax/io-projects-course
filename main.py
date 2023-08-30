@@ -82,3 +82,6 @@ with montecarlo_tab:
         except ValueError as error:
             st.write("Ocurrió un error, por favor verifica los valores ingresados.")
             st.write(error)
+
+
+st.markdown('''**Integrantes:** :blue[Marcos Muchuch, Sergio Meoño, Marco Rimola, Alexander Baquiax]''')
