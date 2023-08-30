@@ -6,7 +6,7 @@ import math
 st.title("Curvas de aprendizaje y Simulación Montecarlo")
 st.write("[Ver el diseño del a aplicación](https://excalidraw.com/#room=5a1eb83a9c0ba4ee278b,j6-eKhrIdcLkM9BnRxtAgg)")
 
-learning_tab, montecarlo_tab = st.tabs(["📉  Curvas de aprendizaje", "⏰  Simulación Montecarlo"])
+learning_tab, montecarlo_tab = st.tabs(["📉  Curvas de aprendizaje", "⏳  Simulación Montecarlo"])
 with learning_tab:
     p = st.number_input(label="% de aprendizaje", value=80.0, min_value=1.0, max_value=99.999)
 
